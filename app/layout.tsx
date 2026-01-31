@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hand Anatomy Nerve-Muscle Sorting Game",
+  title: "Hand Nerd Detector",
   description:
-    "Sort 25 hand muscles into their correct nerve innervation: Median, Ulnar, or Radial. A study tool for anatomy and hand surgery.",
+    "Do you know the innervation of every muscle of the hand? Here's a lil test to find out.",
 };
 
 export default function RootLayout({

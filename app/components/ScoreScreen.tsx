@@ -40,7 +40,7 @@ export default function ScoreScreen({
           return;
         }
 
-        const file = new File([blob], "nerve-muscle-score.png", {
+        const file = new File([blob], "hand-nerd-detector.png", {
           type: "image/png",
         });
 
@@ -48,8 +48,8 @@ export default function ScoreScreen({
           try {
             await navigator.share({
               files: [file],
-              title: "Nerve-Muscle Sorting Game",
-              text: `I scored ${percent}% on the Nerve-Muscle Sorting Game! "${tier.label}"`,
+              title: "Hand Nerd Detector",
+              text: `I scored ${percent}% on the Hand Nerd Detector! "${tier.label}"`,
             });
           } catch {
             downloadImage(canvas);
@@ -67,7 +67,7 @@ export default function ScoreScreen({
 
   const downloadImage = (canvas: HTMLCanvasElement) => {
     const link = document.createElement("a");
-    link.download = "nerve-muscle-score.png";
+    link.download = "hand-nerd-detector.png";
     link.href = canvas.toDataURL("image/png");
     link.click();
   };

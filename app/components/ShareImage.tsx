@@ -55,7 +55,7 @@ const ShareImage = forwardRef<HTMLDivElement, ShareImageProps>(
               marginBottom: 40,
             }}
           >
-            Nerve-Muscle Sorting Game
+            Hand Nerd Detector
           </div>
 
           {/* Score circle */}

@@ -10,13 +10,14 @@ export default function IntroScreen({ onStart }: IntroScreenProps) {
       <div className="animate-fade-in max-w-lg">
         <div className="mb-6 text-6xl">🦴</div>
         <h1 className="mb-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
-          Nerve-Muscle
+          Hand Nerd
           <br />
-          <span className="text-[var(--accent-teal)]">Sorting Game</span>
+          <span className="text-[var(--accent-teal)]">Detector</span>
         </h1>
         <p className="mt-4 text-lg text-[var(--text-secondary)]">
-          Sort <strong className="text-white">29 hand muscles</strong> into
-          their correct nerve innervation.
+          Do you know the innervation of every muscle of the hand?
+          <br />
+          Here&apos;s a lil test to find out.
         </p>
 
         <div className="mt-8 rounded-xl border border-[var(--accent-teal)]/20 bg-[var(--bg-secondary)] p-6 text-left text-sm">
@@ -49,18 +50,6 @@ export default function IntroScreen({ onStart }: IntroScreenProps) {
               </span>
             </li>
           </ul>
-        </div>
-
-        <div className="mt-8 flex flex-wrap justify-center gap-3 text-xs text-[var(--text-secondary)]">
-          <span className="rounded-full border border-[var(--median-border)] bg-[var(--median-bg)] px-3 py-1">
-            Median + AIN (10)
-          </span>
-          <span className="rounded-full border border-[var(--ulnar-border)] bg-[var(--ulnar-bg)] px-3 py-1">
-            Ulnar (13)
-          </span>
-          <span className="rounded-full border border-[var(--radial-border)] bg-[var(--radial-bg)] px-3 py-1">
-            Radial + PIN (6)
-          </span>
         </div>
 
         <button
